@@ -2,10 +2,10 @@ body {
 	background: black;
 }
 
-* {
+/* * {
 	border: 1px dashed red;
 	min-height: 10px;
-}
+} */
 
 .postcard {
 	background: white;
@@ -16,6 +16,7 @@ body {
 
 .postcard-header {
 	display: flex;
+	padding-top: 5px;
 }
 
 .postcard-header img {
@@ -26,8 +27,39 @@ body {
 .postcard-header h1 {
 	margin: 0;
 	width: 85%;
+	padding-left: 5px;
 }
 
 .postcard-body {
 	display: flex;
+}
+
+.postcard-body p {
+	font-family: "Updock", cursive;
+	font-size: larger;
+}
+
+.body-left {
+	padding: 5px;
+}
+
+.body-right {
+	padding: 5px;
+	padding-top: 30px;
+}
+
+.postcard-body .body-right input {
+	border: none;
+	border-bottom: 1px solid gray;
+	padding: 8px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer input {
+	background: rgb(173, 173, 173);
+	border: none;
+	padding-bottom: 5px;
 }

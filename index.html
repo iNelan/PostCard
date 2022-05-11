@@ -5,6 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Updock&display=swap" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -20,14 +23,24 @@
 			</div>
 			<div class="postcard-body">
 				<div class="body-left">
-                    <p>Look how awesome! this a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
-                    <p>This is so cool, can`t wait to start doing more stuff!!</p>
-                </div>
+					<p>Look how awesome! this a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+					<p>This is so cool, can`t wait to start doing more stuff!!</p>
+				</div>
 				<div class="body-right">
-
-                </div>
+					<input
+						type="text"
+						placeholder="Some Name"
+						style="border: none"
+						style="border-bottom: 1px solid gray"
+						style="margin-bottom: 10px"
+					/>
+					<input type="text" placeholder="Some email" style="border: none" style="border-bottom: 1px solid gray" />
+					<input type="text" placeholder="Some Comment" style="border: none" style="border-bottom: 1px solid gray" />
+				</div>
 			</div>
-			<div class="postcard-footer"></div>
+			<div class="postcard-footer">
+				<input type="submit" value="Send My PostCard" border:none />
+			</div>
 		</div>
 	</body>
 </html>

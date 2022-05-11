@@ -27,3 +27,7 @@ body {
 	margin: 0;
 	width: 85%;
 }
+
+.postcard-body {
+	display: flex;
+}
